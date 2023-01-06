@@ -9,6 +9,8 @@ html, body {
   align-content: center;
   justify-content: center;
   overflow: auto;
+  margin: 0;
+  padding: 0;
 }
 
 body {
