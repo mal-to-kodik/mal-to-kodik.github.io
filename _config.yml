@@ -4,5 +4,6 @@ baseurl: ""
 
 exclude:
   - LICENSE
+  - README.md
 
 permalink: /:title
