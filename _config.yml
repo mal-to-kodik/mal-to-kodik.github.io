@@ -1,9 +1,0 @@
-# Site settings
-url: "mal-to-kodik.github.io"
-baseurl: ""
-
-exclude:
-  - LICENSE
-  - README.md
-
-permalink: /:title

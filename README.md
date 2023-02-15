@@ -1,9 +1,11 @@
 # Purpose
 
-Simple pages with Kodik's players mapped by **[MyAnimeList](https://myanimelist.net/)** titles ids.
+Simple single page with a Kodik player for a **[MyAnimeList](https://myanimelist.net/)** title.
 
 # Example
 
-https://mal-to-kodik.github.io/21-id
+- Target title id should be presented in query params.
+
+https://mal-to-kodik.github.io/?mal-id=21
 is related to
 https://myanimelist.net/anime/21
