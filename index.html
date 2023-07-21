@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MAL to Kodik</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+  <script type="application/javascript" src="/js/main.js"></script>
+</head>
+<body>
+<form action="/" class="query-params-form" method="get">
+  <label for="anime">Anime id:
+    <input id="anime" name="anime" type="text" pattern="^\d+$" title="Only numbers" required>
+  </label>
+  <label for="translationId">Translation id:
+    <input id="translationId" name="translation" type="text" pattern="^\d+$" title="Only numbers">
+  </label>
+  <label for="seasonId">Season id:
+    <input id="seasonId" name="season" type="text" pattern="^\d+$" title="Only numbers">
+  </label>
+  <label for="episodeId">Episode id:
+    <input id="episodeId" name="episode" type="text" pattern="^\d+$" title="Only numbers">
+  </label>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
