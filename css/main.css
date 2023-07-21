@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(238, 238, 238);
+  background-color: rgb(57, 62, 70);
+}
+
+.query-params-form {
+  border: rgb(238, 238, 238) 3px solid;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+.query-params-form * {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: xxx-large;
+}
+
+.query-params-form input[type="text"] {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+.query-params-form input[type="submit"] {
+  width: 100%;
+}
