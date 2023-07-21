@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: rgb(238, 238, 238);
+  background-color: rgb(57, 62, 70);
+}
+
+form {
+  border: rgb(238, 238, 238) 3px solid;
+  border-radius: 20px;
+  padding: 1rem;
+}
+
+form :not(details) {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: xxx-large;
+}
+
+form input[type="text"],
+form summary {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+form input[type="submit"] {
+  width: 100%;
+}
+
+form summary {
+  cursor: pointer;
+  font-size: 2rem;
+  text-decoration: underline 1px;
+}
+
+h1 {
+  color: crimson;
+}
